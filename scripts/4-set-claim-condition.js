@@ -1,7 +1,7 @@
 import sdk from "./1-initialize-sdk.js";
 import { MaxUint256 } from "@ethersproject/constants";
 
-const editionDrop = sdk.getEditionDrop("INSERT_EDITION_DROP_ADDRESS");
+const editionDrop = sdk.getEditionDrop("0x89001403E255E1512797BF34757F046627bB3fF4");
 
 (async () => {
   try {
